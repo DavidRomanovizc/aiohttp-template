@@ -1,0 +1,6 @@
+aiohttp~=3.8.1
+Jinja2~=3.1.1
+loguru~=0.6.0
+aioreloader~=0.4.0
+PyYAML~=6.0
+asyncpgsa~=0.27.1
