@@ -1,1 +1,4 @@
 site_name: 'Template'
+
+
+database_url: postgres://forum_user:forum_password@localhost/forum
