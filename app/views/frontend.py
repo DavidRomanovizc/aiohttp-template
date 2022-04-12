@@ -20,3 +20,10 @@ async def post(request):
         return web.Response(body=result)
     except Exception as err:
         logger.error(f"Failed to open database - {err}")
+
+
+async def ping(request):
+    try:
+        return web.Response(text="pong")
+    except Exception as err:
+        logger.error(f"Something error - {err}")

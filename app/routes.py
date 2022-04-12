@@ -7,3 +7,4 @@ def setup_routes(app):
     app.router.add_static('/font/', path='templates/client/font', name='font', show_index=True)
     app.router.add_route('GET', '/', frontend.index)
     app.router.add_route('GET', '/post', frontend.post)
+    app.router.add_route('GET', '/ping', frontend.ping)
