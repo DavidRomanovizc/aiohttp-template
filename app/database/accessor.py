@@ -1,7 +1,7 @@
 import asyncpgsa
 
 
-def setup(app):
+def setup_database(app):
     app.on_startup.append(_on_connect)
     app.on_cleanup.append(_on_shutdown)
 

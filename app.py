@@ -1,5 +1,4 @@
-from app.utils import project_settings, args
-from app.settings import load_config
+from app.settings import load_config, args, project_settings
 from app.server import create_app
 
 from aiohttp import web
