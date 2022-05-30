@@ -19,26 +19,13 @@ python app.py
 ```
 📦app
  ┣ 📂database
- ┃ ┣ 📂__pycache__
- ┃ ┃ ┣ 📜accessor.cpython-39.pyc
- ┃ ┃ ┣ 📜database.cpython-39.pyc
- ┃ ┃ ┗ 📜__init__.cpython-39.pyc
  ┃ ┣ 📜accessor.py
  ┃ ┣ 📜database.py
  ┃ ┗ 📜__init__.py
  ┣ 📂middlewares
  ┣ 📂views
- ┃ ┣ 📂__pycache__
- ┃ ┃ ┣ 📜frontend.cpython-39.pyc
- ┃ ┃ ┗ 📜__init__.cpython-39.pyc
  ┃ ┣ 📜frontend.py
  ┃ ┗ 📜__init__.py
- ┣ 📂__pycache__
- ┃ ┣ 📜routes.cpython-39.pyc
- ┃ ┣ 📜server.cpython-39.pyc
- ┃ ┣ 📜settings.cpython-39.pyc
- ┃ ┣ 📜utils.cpython-39.pyc
- ┃ ┗ 📜__init__.cpython-39.pyc
  ┣ 📜routes.py
  ┣ 📜server.py
  ┣ 📜settings.py
@@ -65,10 +52,6 @@ python app.py
 
 ```
 📦database
- ┣ 📂__pycache__
- ┃ ┣ 📜accessor.cpython-39.pyc
- ┃ ┣ 📜database.cpython-39.pyc
- ┃ ┗ 📜__init__.cpython-39.pyc
  ┣ 📜accessor.py
  ┣ 📜database.py
  ┗ 📜__init__.py
@@ -88,14 +71,3 @@ file and change the connection url
 | forum_password | Database Password | 123456    |
 | forum          | Database name     | postgres  |
 
-## Tests
-
-Coming soon...
-
-## Docker
-
-Coming soon...
-
-## Swagger API
-
-Coming soon...
