@@ -1,10 +1,10 @@
 ## Aiohttp Template
+> Aiohttp Application template with static files
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blueviolet?style=flat-square)](https://www.python.org/downloads/)
 [![Aiohttp](https://img.shields.io/badge/Aiohttp-3.8.1-9cf?style=flat-square)](https://docs.aiohttp.org/en/stable/)
-<hr>
-Aiohttp Application template with static files
-<hr>
+
+
 
 ## Installing
 
